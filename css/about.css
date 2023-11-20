@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.about_us_section {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5rem;
+  margin: 1rem 0;
+}
+.about_us_content_container {
+  padding: 3rem 5rem;
+}
+.about_us_content_container h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+.about_us_content_container h3 {
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+.about_us_content_container p {
+  font-size: 1.125rem;
+  margin: 1rem 0;
+}
+.about_us_content_container:nth-child(odd) {
+  background-color: #f8fafe;
+}

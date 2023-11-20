@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    
+    <link rel="stylesheet" href="./css/contact.css"></link>
+    <link rel="stylesheet" href="./css/header.css"></link>
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul>
+          <li class="nav_options">
+            <a href="/index.html"> Home </a>
+          </li>
+          <li class="nav_options">
+            <a href="/products.html"> Products </a>
+          </li>
+          <li class="nav_options">
+            <a href="/about.html"> About Us </a>
+          </li>
+          <li class="nav_options">
+            <a href="/contact.html"> Contact Us </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="contact_us_container">
+      <div class="react_us_from_container">
+        <h2>Reach Us</h2>
+        <form class="react_us_from">
+          <fieldset>
+            <label class="input_label">Name</label>
+            <input placeholder="Jhon" class="contact_us_input"/>
+          </fieldset>
+          <fieldset>
+            <label class="input_label">Email*</label>
+            <input placeholder="xyz@gmail.com" class="contact_us_input"/>
+          </fieldset>
+          <fieldset>
+            <label class="input_label">Description</label>
+            <textarea placeholder="type you query here" class="contact_us_input"></textarea>
+          </fieldset>
+          <button class="contact_form_submit">Submit</button>
+        </form>
+      <div class="contact_container">
+        <h2>Contact Us</h2>
+        <div class="addresses-container">
+          <div class="address-container">
+            <div class="address-heading">Head Quarter</div>
+            <div class="address-details">
+                123 Main Street, Suite 456<br>
+                City: Springfield<br>
+                State: New York<br>
+                Zip Code: 12345<br>
+                Country: United States
+            </div>
+        </div>
+
+        <div class="address-container">
+            <div class="address-heading">Office</div>
+            <div class="address-details">
+                789 Oak Avenue, Apartment 101<br>
+                City: Willowville<br>
+                State: Greenfields<br>
+                Zip Code: 54321<br>
+                Country: United States
+            </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div id="map"></div>
+    </section>
+    <footer>
+      <div>
+
+        Made by
+        <a href="http://github.com/rahul72925" target="_blank">Rahul Khatri</a>
+      </div>
+      </footer>
+    <script src="./scripts/contact.js"></script>
+  </body>
+</html>
